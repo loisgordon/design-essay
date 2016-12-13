@@ -88,22 +88,98 @@ blockquote p {
 .p1 {
     height: 0;
     padding: 0; 
-    padding-bottom: 10%; 
+    padding-bottom: 20%; 
+    padding-top: 1%;
     background-image: url(insertlink.png);
-    background-position: center center;
+    background-position: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: ghostwhite;
+    background-color: lightgray;
 }
 
 .p2 {
     height: 0;
     padding: 0; 
-    padding-bottom: 10%; 
+    padding-bottom: 20%;
+    padding-top: 1%;
     background-image: url(insertlink.png);
-    background-position: center center;
+    background-position: cover;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: ghostwhite;
+}
+
+.p3 {
+    height: 0;
+    padding: 0; 
+    padding-bottom: 20%;
+    padding-top: 1%;
+    background-image: url(insertlink.png);
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+
+/*-------------- Image gallery -------------------*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1 'Open Sans', sans-serif;
+  color: #555;
+  background: #e5e5e5;
+}
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 10;
+}
+
+.gallery > div:hover > img {
+  transform: scale(3,3);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: block;
+  content: "";
+}
+
+.cf:after {
+  clear: both;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
 }
 
