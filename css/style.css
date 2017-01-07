@@ -13,8 +13,7 @@
       line-height: 1.5;
       background-color: ghostwhite;
       font: 14px/1 sans-serif;
-      color: #555;
-      background: #e5e5e5;
+      color: black;
   }
   /*------------------ nav -------------------------*/
   
@@ -135,7 +134,7 @@
   }
   
   .p4 {
-      background-color: ghostwhite;
+      background-color: lightgray;
       height: 10em;
       padding: 2em;
       padding-bottom: 10%;
@@ -157,7 +156,7 @@
     max-width: 100%;
 }
 .p7 {
-    background-color: ghostwhite;
+    background-color: lightgray;
     height: 10em;
     padding: 1em 1em 1em 2em;
     padding-bottom: 12%;
