@@ -24,7 +24,6 @@
       border-bottom: 1px solid #333;
       margin-bottom: 2em;
       margin: auto;
-      background-color: ghostwhite;
       max-width: 90%;
   }
   
@@ -53,7 +52,7 @@
   }
   
   a:hover {
-      color: dimgrey;
+      color: indianred;
       text-decoration: 1px dotted;
   }
   /*------------------- typography ------------------------*/
@@ -171,6 +170,20 @@
     padding-bottom: 18%;
     max-width: 100%;
 }
+.p9 {
+    background-color: ghostwhite;
+    height: 10em;
+    padding: 1em 1em 1em 2em;
+    padding-bottom: 50%;
+    max-width: 100%;
+}
+footer {
+    font-size: 2em;
+    color: black;
+    margin: auto;
+    text-align: center;
+    
+}
 
 /*-------------- Gallery -------------------*/
 .img4 {
@@ -190,78 +203,3 @@ h4 {
     color: grey;
     text-align: left;
 }
- /*----------------------- Tablet -------------- */
-    @media (max-width: 50em) {
-        body {
-            width: 85%;
-        }
-        article {
-            width: 95%;
-            padding: 0.5em;
-        }
-        blockquote {
-            font-size: 85%;
-        }
-    }
-    /*----------------------- Smartphone -------------- */
-    @media (max-width: 40em) {
-        body {
-            margin: auto;
-            width: 90%;
-            font-size: 100%;
-           /* padding-right: 3em;
-            padding-left: 2em; */
-        }
-        /*--------------- smartphone table -------------*/
-        table {
-            font-size: 80%;
-            margin: 1em 1em 2em 0em;
-            width: auto;
-        }
-        /*--------------- smartphone article -------------*/
-        article {
-            width: 100%;
-        }
-        section {
-            width: 100%;
-        }
-        /*--------------- smartphone header -------------*/
-        h1 {
-            font-size: 2em;
-            line-height: .75em;
-        }
-        h2 {
-            font-size: 2em;
-        }
-        /*--------------- smartphone footer -------------*/
-        footer {
-            line-height: 1.5em;
-            font-size: .5em;
-            padding: 1em;
-            
-        }
-        /*--------------- smartphone nav -------------*/
-        nav {
-            padding: .75em;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
-            margin-bottom: 2em;
-        }
-        nav ul {
-            text-align: center;
-            text-transform: none;
-            letter-spacing: 1px;
-        }
-        nav ul li {
-            display: block;
-            margin:2px;
-            font-size: 1em;
-        }
-        /*--------------- smartphone imgs -------------*/
-        img {
-            display: block;
-            margin:  .5em auto;
-            padding: 1em;
-            max-width: 15em;
-        }
-    }
