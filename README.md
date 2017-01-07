@@ -1,7 +1,7 @@
 # Design Essay
 
 
-A website designed by me focussing on the designer Marian Bantjes.
+A website designed around an essay on the designer Marian Bantjes.
 
-###[Marian Bantjes](https://loisgordon.github.io/design-essay/HTML/design-essay.html) 
-- Starting content, brief template of HTML5 page
+###[Marian Bantjes]
+(https://loisgordon.github.io/design-essay/design-essay.html)

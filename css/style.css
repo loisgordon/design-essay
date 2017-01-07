@@ -1,4 +1,4 @@
-  /*------------------ css reset -------------------------*/
+/*------------------ css reset -------------------------*/
   
   * {
       margin: 0;
@@ -65,8 +65,6 @@
       padding: 1em;
       max-width: 100%;
       padding: 3em 0 2em 65em;
-      
-  
   }
   
   p {
@@ -122,22 +120,21 @@
       max-width: 100%;
   }
   
-  .p3 {  
+  .p3 {
       background-color: lightgray;
       height: 10em;
       padding: 3em;
       padding-bottom: 37%;
       max-width: 100%;
-      
-}
-.img2 { 
-    display: block;
+  }
+  
+  .img2 {
+      display: block;
       margin: auto;
       padding: 1em;
       max-width: 60%;
-    
-}
-
+  }
+  
   .p4 {
       background-color: ghostwhite;
       height: 10em;
@@ -145,53 +142,126 @@
       padding-bottom: 10%;
       max-width: 100%;
   }
-
-
 }
-
-.p5 {  background-color: lightgray;
-      height: 10em;
-      padding: 2em;
-      padding-bottom: 20%;
-      max-width: 100%;
-    
+.p5 {
+    background-color: lightgray;
+    height: 10em;
+    padding: 2em;
+    padding-bottom: 20%;
+    max-width: 100%;
 }
-
 .p6 {
-      background-color: ghostwhite;
-      height: 10em;
-      padding: 2em;
-      padding-bottom: 2%;
-      max-width: 100%;
+    background-color: ghostwhite;
+    height: 10em;
+    padding: 2em;
+    padding-bottom: 2%;
+    max-width: 100%;
+}
+.p7 {
+    background-color: ghostwhite;
+    height: 10em;
+    padding: 1em 1em 1em 2em;
+    padding-bottom: 12%;
+    max-width: 100%;
+}
+.p8 {
+    background-color: lightgrey;
+    height: 10em;
+    padding: 1em 1em 1em 2em;
+    padding-bottom: 18%;
+    max-width: 100%;
 }
 
-.p7 {
-      background-color: ghostwhite;
-      height: 10em;
-      padding: 1em 1em 1em 2em;
-      padding-bottom: 15%;
-      max-width: 100%;
+/*-------------- Gallery -------------------*/
+.img4 {
+    display: inline;
+    margin: auto;
+    padding: 2em 2em 4em 2em;
+    max-width: 100%;
 }
-    
-    
-  /*-------------- Gallery -------------------*/
- 
-.img4 { 
-      display: inline;
-      margin: auto;
-      padding: 2em 2em 4em 2em;
-      max-width: 100%;
+h4 {
+    margin: 40px 0;
+    font-size: 2em;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    padding: 1em 2em 1em 5em;
+    font-weight: normal;
+    color: grey;
+    text-align: left;
 }
-  
-  h4 {
-      margin: 40px 0;
-      font-size: 2em;
-      text-align: center;
-       font-size: 2em;
-      margin: auto;
-      padding: 1em 2em 1em 5em;
-      font-weight: normal;
-      color: grey;
-      text-align: left;
-      
-  }
+ /*----------------------- Tablet -------------- */
+    @media (max-width: 50em) {
+        body {
+            width: 85%;
+        }
+        article {
+            width: 95%;
+            padding: 0.5em;
+        }
+        blockquote {
+            font-size: 85%;
+        }
+    }
+    /*----------------------- Smartphone -------------- */
+    @media (max-width: 40em) {
+        body {
+            margin: auto;
+            width: 90%;
+            font-size: 100%;
+           /* padding-right: 3em;
+            padding-left: 2em; */
+        }
+        /*--------------- smartphone table -------------*/
+        table {
+            font-size: 80%;
+            margin: 1em 1em 2em 0em;
+            width: auto;
+        }
+        /*--------------- smartphone article -------------*/
+        article {
+            width: 100%;
+        }
+        section {
+            width: 100%;
+        }
+        /*--------------- smartphone header -------------*/
+        h1 {
+            font-size: 2em;
+            line-height: .75em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        /*--------------- smartphone footer -------------*/
+        footer {
+            line-height: 1.5em;
+            font-size: .5em;
+            padding: 1em;
+            
+        }
+        /*--------------- smartphone nav -------------*/
+        nav {
+            padding: .75em;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            margin-bottom: 2em;
+        }
+        nav ul {
+            text-align: center;
+            text-transform: none;
+            letter-spacing: 1px;
+        }
+        nav ul li {
+            display: block;
+            margin:2px;
+            font-size: 1em;
+        }
+        /*--------------- smartphone imgs -------------*/
+        img {
+            display: block;
+            margin:  .5em auto;
+            padding: 1em;
+            max-width: 15em;
+        }
+    }
