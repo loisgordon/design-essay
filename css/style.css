@@ -10,9 +10,9 @@
       width: 100%;
       max-width: 100%;
       margin: auto;
-      line-height: 1.5;
+      line-height: 1.5em;
       background-color: ghostwhite;
-      font: 12px/1 sans-serif;
+      font: 7px/1 sans-serif;
       color: black;
   }
   /*------------------ nav -------------------------*/
@@ -59,10 +59,11 @@
   header,
   img img {
       display: block;
+      max-width: 60%;
+      display: block;
       margin: auto;
-      padding: 1em;
-      max-width: 100%;
-      padding: 3em 0 2em 50em;
+      padding: 5em 5em 5em 15em;
+      
   }
   
   p {
@@ -70,12 +71,12 @@
       line-height: 2em;
       max-width: 70%;
       text-align: left;
-    margin: auto;
+      margin: auto;
       position: relative;
   }
   
   h2 {
-      font-size: 2em;
+      font-size: 2.5em;
       margin: auto;
       padding: 1em 2em 1em 5em;
       font-weight: normal;
@@ -92,7 +93,7 @@
       position: relative;
       padding: 1.5em 0em 1.5em 0em;
   }
-  /*-------------------backgrounds ------------------------*/
+  /*-------------------backgrounds and sections ------------------------*/
   
   .p1 {
       background-color: lightgray;
@@ -150,7 +151,7 @@
      padding: 2.5em 0em 1.5em 0em;
 }
 .p8 {
-    background-color: lightgrey;
+    background-color: lightgray;
     max-width: 100%;
      padding: 1.5em 0em 1.5em 0em;
 }
@@ -164,7 +165,13 @@ footer {
     color: black;
     margin: auto;
     text-align: center;
+    padding: 2em;
     
+}
+
+li {
+    display: inline;
+    padding: 2em;
 }
 
 /*-------------- Gallery -------------------*/
