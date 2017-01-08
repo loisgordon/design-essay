@@ -68,10 +68,9 @@
   p {
       font-size: 2em;
       line-height: 1.5em;
-      max-width: 100%;
+      max-width: 70%;
       text-align: left;
-      padding: 1em 14em 2em 14em;
-      margin: auto;
+    margin: auto;
       position: relative;
   }
   
@@ -86,7 +85,7 @@
   
   .introtext {
       font-size: 2em;
-      line-height: 1.5em;
+      line-height: 2em;
       max-width: 90%;
       text-align: left;
       padding: 0em 14em 2em 14em;
@@ -98,6 +97,7 @@
   .p1 {
       background-color: lightgray;
       max-width: 100%;
+      padding: 1.5em 0em 1.5em 0em;
   }
   
   .img1 {
@@ -105,16 +105,19 @@
       margin: auto;
       padding: 1em;
       max-width: 60%;
+      
   }
   
   .p2 {
       background-color: ghostwhite;
       max-width: 100%;
+       padding: 1.5em 0em 1.5em 0em;
   }
   
   .p3 {
       background-color: lightgray;
       max-width: 100%;
+       padding: 1.5em 0em 1.5em 0em;
   }
   
   .img2 {
@@ -122,32 +125,39 @@
       margin: auto;
       padding: 1em;
       max-width: 60%;
+      
   }
   
   .p4 {
       background-color: lightgray;
       max-width: 100%;
+       padding: 1.5em 0em 1.5em 0em;
   }
 }
 .p5 {
     background-color: lightgray;
     max-width: 100%;
+     padding: 1.5em 0em 1.5em 0em;
 }
 .p6 {
     background-color: ghostwhite;
     max-width: 100%;
+     padding: 1.5em 0em 1.5em 0em;
 }
 .p7 {
     background-color: lightgray;
     max-width: 100%;
+     padding: 2.5em 0em 1.5em 0em;
 }
 .p8 {
     background-color: lightgrey;
     max-width: 100%;
+     padding: 1.5em 0em 1.5em 0em;
 }
 .p9 {
     background-color: ghostwhite;
     max-width: 100%;
+     padding: 1.5em 0em 1.5em 0em;
 }
 footer {
     font-size: 2em;
