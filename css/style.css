@@ -96,9 +96,6 @@
   /*-------------------backgrounds ------------------------*/
   
   .p1 {
-      height: 10em;
-      padding: 0;
-      padding-bottom: 30%;
       background-color: lightgray;
       max-width: 100%;
   }
@@ -112,17 +109,11 @@
   
   .p2 {
       background-color: ghostwhite;
-      height: 10em;
-      padding: 2em;
-      padding-bottom: 20%;
       max-width: 100%;
   }
   
   .p3 {
       background-color: lightgray;
-      height: 10em;
-      padding: 3em;
-      padding-bottom: 37%;
       max-width: 100%;
   }
   
@@ -135,45 +126,27 @@
   
   .p4 {
       background-color: lightgray;
-      height: 10em;
-      padding: 2em;
-      padding-bottom: 10%;
       max-width: 100%;
   }
 }
 .p5 {
     background-color: lightgray;
-    height: 10em;
-    padding: 2em;
-    padding-bottom: 20%;
     max-width: 100%;
 }
 .p6 {
     background-color: ghostwhite;
-    height: 10em;
-    padding: 2em;
-    padding-bottom: 2%;
     max-width: 100%;
 }
 .p7 {
     background-color: lightgray;
-    height: 10em;
-    padding: 1em 1em 1em 2em;
-    padding-bottom: 12%;
     max-width: 100%;
 }
 .p8 {
     background-color: lightgrey;
-    height: 10em;
-    padding: 1em 1em 1em 2em;
-    padding-bottom: 18%;
     max-width: 100%;
 }
 .p9 {
     background-color: ghostwhite;
-    height: 10em;
-    padding: 1em 1em 1em 2em;
-    padding-bottom: 50%;
     max-width: 100%;
 }
 footer {
